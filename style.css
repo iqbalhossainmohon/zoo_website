@@ -7,7 +7,7 @@
     font-family: 'Fira Sans', sans-serif;
 }
 .cover{
-    background-image: url(../images/cover-img.webp);
+    background-image: url(images/cover-img.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height:100vh;
@@ -79,7 +79,7 @@
 }
 /* Contact section  */
 #contact{
-    background-image: url(../images/image12.jpg);
+    background-image: url(images/image12.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
