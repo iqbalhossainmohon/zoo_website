@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Sono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+}
+.cover{
+    background-image: url(../images/cover-img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.logo-s{
+    display: flex;
+    flex-direction: column;
+}
+.logo-s p , a{
+    color: white !important;
+}
+.logo-s p{
+    font-size: 12px;
+}
+.navbar{
+    height: 50px;
+    background: transparent !important;
+    padding: 20px 0 0 0;
+    position: sticky;
+}
+.navbar-nav{
+    margin-right: 100px;
+}
+.call i{
+    padding: 0 10px;
+}
+.call{
+    margin-left: 100px;
+}
+.nav-link:hover{
+    color: greenyellow;
+    margin: 0 20px 0 20px;
+    transition: 1000ms;
+}
+
+/* hero section  */
+.pt-5{
+    margin-top: 50px !important;
+}
+.hero-text{
+    letter-spacing: 3px;
+    font-weight: bold;
+    position: relative;
+}
+.hero-text::after{
+    content: "";
+    width: 200px;
+    height: 3px;
+    position: absolute;
+    top: 60%;
+    left: 38%;
+    background-color: red;
+}
+.hero-text span{
+    color: red;
+}
+.btn{
+    margin-top: 20px;
+    padding: 14px 40px;
+    border: 2px solid red;
+}
+.btn:hover{
+    border: rgb(7, 117, 219);
+}
+/* Visitores section */
+.card-bg{
+    background-color: black;
+    margin: 10px;
+}
+/* Contact section  */
+#contact{
+    background-image: url(../images/image12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+/* footer section  */
+.footer-info{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+#footer h1{
+    text-align: center;
+    font-size: 40px;
+}
+#footer p{
+    font-size: 15px;
+}
+.footer-contact{
+    text-align: center;
+}
+.footer-icon{
+    color: yellow;
+    font-size: 40px;
+    padding: 0 10px;
+}
+.footer-icon:hover{
+    color: #18aee6;
+    transition: 1000ms;
+}
+.footer-brand{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+/* .footer-brand p{
+    position: absolute;
+    
+} */
